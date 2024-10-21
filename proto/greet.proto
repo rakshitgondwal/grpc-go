@@ -18,7 +18,7 @@ service GreetService{
 message NoParam{};
 
 message HelloResp{
-    string name = 1;
+    string message = 1;
 }
 
 message HelloReq{
